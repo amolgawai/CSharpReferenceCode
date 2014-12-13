@@ -4,7 +4,7 @@ using System .Management;
 using System .Runtime;
 using Trumpf.TruTops .Common. InfrastructureInterface.MemoryInformation ;
 
-
+// Editing from codehub on iPad
 namespaceInfrastructure .MemoryInformation
 {
 
