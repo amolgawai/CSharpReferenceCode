@@ -2,16 +2,15 @@ using System ;
 using System .Diagnostics;
 using System .Management;
 using System .Runtime;
-using Trumpf.TruTops .Common. InfrastructureInterface.MemoryInformation ;
 
 // Editing from codehub on iPad
-namespaceInfrastructure .MemoryInformation
+namespace Infrastructure.MemoryInformation
 {
 
     /// <summary>
     /// Implementation of <see cref="TiMemoryInfo"/> .
     /// </summary>
-    public class MemoryInfo : MemoryInfo
+    public class MemoryInfo : IMemoryInfo
     {
         /// <summary>
         /// Instantiates <see cref="TcMemoryInfo"/>. Internals are initialized.
