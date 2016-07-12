@@ -20,7 +20,7 @@ namespace Infrastructure
         }
 
         /// <summary>
-        /// Writes the error.
+        /// Writes the error to console.
         /// </summary>
         /// <param name="format">The format string.</param>
         /// <param name="arg0">The arguments. </param>
